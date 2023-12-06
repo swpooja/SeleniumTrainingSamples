@@ -10,6 +10,7 @@ public class LocatorTest {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
+		
 		driver.navigate().to("https://demo.seleniumeasy.com/table-sort-search-demo.html");
 	}
 

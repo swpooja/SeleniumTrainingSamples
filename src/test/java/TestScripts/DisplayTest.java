@@ -11,6 +11,7 @@ public class DisplayTest {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		ChromeOptions options = new ChromeOptions();
+		
 		options.setBrowserVersion("115");
 		options.addArguments("--headless");
 		WebDriver driver = new ChromeDriver(options);

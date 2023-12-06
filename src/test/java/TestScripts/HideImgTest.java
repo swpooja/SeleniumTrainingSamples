@@ -14,6 +14,7 @@ public class HideImgTest {
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--blink-settings=imagesEnabled=false");
 		Map<String,Object> prefs = new HashMap<String,Object>();
+		
 		prefs.put("profile.managed_default-content_settings.images",2);
 		options.setExperimentalOption("prefs ", prefs);
 		WebDriver driver = new ChromeDriver(options);

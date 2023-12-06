@@ -20,6 +20,7 @@ public class AlertsSelenium {
 //		  System.out.println("Alert Text: " +alert.getText());
 //		  alert.accept();
 		  
+		  
 		  //handling confirmation alert
 //		  driver.findElement(By.xpath("(//button[contains(text(),'Click me!')])[2]")).click();
 //		  Alert confirm =driver.switchTo().alert();

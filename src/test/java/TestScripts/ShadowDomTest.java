@@ -19,6 +19,7 @@ public class ShadowDomTest {
 //  //WebElement shadowContent = driver.findElement(By.cssSelector("span#shadow_content"));
 //  System.out.println("Shadow dom Content: "+ shadowContent.getText());
   
+  
   WebElement shadowHost =driver.findElement(By.cssSelector("div#nested_shadow_host"));
   SearchContext context=shadowHost.getShadowRoot();
   WebElement shadowContent = context.findElement(By.cssSelector("div#nested_shadow_content"));

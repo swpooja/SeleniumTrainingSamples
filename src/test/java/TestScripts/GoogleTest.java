@@ -13,6 +13,7 @@ public class GoogleTest {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		WebDriver driver = new ChromeDriver();
+		
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		driver.navigate().to("https://www.google.com/");

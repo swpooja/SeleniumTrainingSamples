@@ -11,6 +11,7 @@ public class FileUploadTest {
 		// TODO Auto-generated method stub
 		WebDriver driver =new ChromeDriver();
 		driver.manage().window().maximize();
+		
 		driver.get("https://blueimp.github.io/jQuery-File-Upload/");
 		WebElement addFile =driver.findElement(By.xpath("//input[@type='file']"));
 		String strPath = System.getProperty("user.dir")+"/screenshots/"+ "//1701840235182.png";

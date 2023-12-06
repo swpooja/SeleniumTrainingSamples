@@ -19,6 +19,7 @@ public class MouseActionTest {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
+		
 		Actions action = new Actions(driver);
 		//driver.get("https://demo.opencart.com/");
 //		WebElement srcBox= driver.findElement(By.name("search"));

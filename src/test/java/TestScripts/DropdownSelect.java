@@ -14,6 +14,7 @@ public class DropdownSelect {
 		// TODO Auto-generated method stub
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
+		
 		driver.manage().deleteAllCookies();
 		driver.get("https://demo.seleniumeasy.com/basic-select-dropdown-demo.html");
 		Select Singlesel =new Select(driver.findElement(By.id("select-demo")));
