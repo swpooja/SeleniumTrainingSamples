@@ -26,6 +26,7 @@ public class WinPopupTest {
 			  if(!child.equalsIgnoreCase(parentWin)) {
 				  driver.switchTo().window(child);
 				  System.out.println("child Win title.."+driver.getTitle());
+				  
 			  }
 		  }
 		  driver.switchTo().window(parentWin);
