@@ -20,11 +20,11 @@ public class ShadowDomTest {
 //  System.out.println("Shadow dom Content: "+ shadowContent.getText());
   
   
-  WebElement shadowHost =driver.findElement(By.cssSelector("div#nested_shadow_host"));
-  SearchContext context=shadowHost.getShadowRoot();
-  WebElement shadowContent = context.findElement(By.cssSelector("div#nested_shadow_content"));
+  WebElement innershadow =driver.findElement(By.cssSelector("div#nested_shadow_host"));
+  SearchContext innercontext=innershadow.getShadowRoot();
+  WebElement innertext = innercontext.findElement(By.cssSelector("div#nested_shadow_content"));
   //WebElement shadowContent = driver.findElement(By.cssSelector("span#shadow_content"));
-  System.out.println("Shadow dom Content: "+ shadowContent);
+  System.out.println("Shadow dom Content: "+ innertext);
 	}
 
 }
